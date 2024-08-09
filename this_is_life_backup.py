@@ -1,5 +1,6 @@
 import sys
 import time
+import random_choices
     
 # Start game scene
 #----------------------------------
@@ -10,9 +11,10 @@ instructionsList = ["instructions", "Instructions", "aim", "Aim", "INSTRUCTIONS"
 startList = ["Start", "start", "go", "START", "sTART"]
 question_group = ["guess","Guess","GUESS","Code","code","CODE"]
 code = str(5858)
-smart_test = str(17.35 + 1.20)
+smart_test = run_randomEquation(equationsList)
 sys.stdout.write("\nAll artwork is from https://www.asciiart.eu/\n")
 #Where the ascii art work is copied from.
+print(smart_test)
 sys.stdout.write("""
  /$$      /$$           /$$                                             /$$ /$$
 | $$  /$ | $$          | $$                                            | $$| $$
